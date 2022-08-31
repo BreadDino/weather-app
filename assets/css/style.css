@@ -11,12 +11,13 @@ header{
     padding: 20px;
     color: var(--grey);
     background-color: var(--darkest);
+    display: flex;
+    justify-content: center;
 }
 div{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 section{
     display: flex;
@@ -24,4 +25,23 @@ section{
 input{
     height: 50px;
     width: 300px;
+    margin: 10px 0;
+}
+button{
+    margin: 10px 0;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(111, 150, 255);
+    border: 0;
+    border-radius: 5px;
+}
+.current-box{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 1000px;
+    height: 200px;
+}
+.city-select{
+    height: 150px;
 }
