@@ -22,7 +22,7 @@ div{
 section{
     display: flex;
 }
-input{
+textarea{
     height: 50px;
     width: 300px;
     margin: 10px 0;
@@ -35,6 +35,9 @@ button{
     border: 0;
     border-radius: 5px;
 }
+button:hover{
+    cursor: pointer;
+}
 .current-box{
     border: 2px;
     border-style: solid;
@@ -44,4 +47,11 @@ button{
 }
 .city-select{
     height: 150px;
+}
+.lastsearch{
+    padding: 10px;
+    background-color: var(--darkest);
+    border: 2px;
+    border-radius: 5px;
+    color: var(--grey);
 }
