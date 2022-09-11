@@ -1,8 +1,10 @@
 :root{
     --darkest: rgb(34, 34, 34);
     --grey: grey;
+    --white: white;
 }
 *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 30px;
@@ -38,6 +40,10 @@ button{
 button:hover{
     cursor: pointer;
 }
+p{
+    font-size: 15px;
+    padding: 10px;
+}
 .current-box{
     border: 2px;
     border-style: solid;
@@ -56,6 +62,17 @@ button:hover{
     color: var(--grey);
 }
 .details{
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
+}
+.forecast-align{
+    display: flex;
+    flex-direction: row;
+}
+.forecast{
+background-color: var(--darkest);
+width: 150px;
+height: 200px;
+margin: 10px;
+color: var(--white);
 }
