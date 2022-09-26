@@ -124,7 +124,7 @@ function removeprevious() {
 function fetchForecast(query) {
   var citys = document.querySelector(".citys").value;
   var url =
-    "http://api.openweathermap.org/data/2.5/forecast?q=" + citys + "&appid=d7bb72a0ceb5ca152a17cec919b7c2a6&units=imperial";
+    "https://api.openweathermap.org/data/2.5/forecast?q=" + citys + "&appid=d7bb72a0ceb5ca152a17cec919b7c2a6&units=imperial";
 
   fetch(url)
     .then(function (response) {
